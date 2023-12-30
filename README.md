@@ -1,5 +1,9 @@
 ## Next.js App Router Course (Financial Dashboard Application)
 
+<img src="./public/hero-desktop.png" alt="Screenshot of the dashboard project showing desktop version"/>
+
+<br>
+
 This is the template for the Next.js (14) App Router Course. It contains the code for the financial dashboard application that has:
 
 • A public home page. <br>
