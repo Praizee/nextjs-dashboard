@@ -67,9 +67,9 @@ export async function updateInvoice(id: string, formData: FormData) {
 }
 
 export async function deleteInvoice(id: string) {
-    throw new Error('Failed to Delete Invoice');
+    // throw new Error('Failed to Delete Invoice');
 
-    // Unreachable code block
+    // Unreachable code block (when above line is uncommented)
     try {
         await sql`DELETE FROM invoices WHERE id = ${id}`;
         revalidatePath('/dashboard/invoices');
