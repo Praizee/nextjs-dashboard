@@ -20,7 +20,7 @@ export default function LoginPage() {
                 </div>
                 <LoginForm />
                 <p>
-                    Don't have an account? <Link href="register" className='text-blue-500'>
+                    New here? <Link href="register" className='text-blue-500'>
                         Register
                     </Link>
                 </p>
