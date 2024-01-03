@@ -29,6 +29,9 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
+          <p className='text-red-500'>
+            Login/Signup doesn't work yet...
+          </p>
           <Link href="/dashboard" className='text-blue-500'>
             Go to Dashboard
           </Link>
