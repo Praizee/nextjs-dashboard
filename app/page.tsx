@@ -30,6 +30,7 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
           <p className='text-red-500'>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             ⚠️Login/Signup doesn't work yet...
           </p>
           <Link href="/dashboard" className='text-blue-500'>
